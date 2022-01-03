@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #2e434b;
+  background-image: radial-gradient(circle, #4c7180 0%, #0c1b21 100%);
+}
+
+body .container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body .container :before, 
+body .container :after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+}
+
+.batman-container {
+  position: absolute;
+  height: 250px;
+  width: 75px;
+  top: calc(50% - (250px / 2));
+  left: calc(50% - (75px / 2));
+}
+
+.batman {
+  height: 85px;
+  width: 75px;
+  margin: 74px auto 0 auto;
+  position: relative;
+}
+
+.batman * {
+  position: absolute;
+}
+
+.batman .head {
+  top: -73px;
+  left: calc(50% - (63px / 2));
+  width: 63px;
+  height: 67px;
+  background-image: radial-gradient(circle, #f5c192 0%, #744f2d 100%);
+  box-shadow: 0px 16px 10px -18px rgba(0, 0, 0, 0.5), inset 0px -16px 5px -15px rgba(0, 0, 0, 0.2), inset -18px 0px 15px -15px rgba(0, 0, 0, 0.5);
+  border-radius: 25%;
+}
+/*
+.batman .head .hair {
+  top: -13px;
+  left: calc(50% - (79px / 2));
+  height: 40px;
+  width: 74px;
+  background: #834435;
+  border-radius: 50% 50% 60% 40%/80% 50% 50% 20%;
+  z-index: 2;
+  box-shadow: 0 7px 2px -7px rgba(0, 0, 0, 0.5), inset 0 -12px 8px -10px rgba(0, 0, 0, 0.6);
+}
+
+.batman .head .hair .highlight {
+  left: 0;
+  top: 0;
+  width: 70%;
+  height: 150%;
+  border-radius: 50%;
+  background-image: radial-gradient(40% 40%, ellipse cover, rgba(250, 250, 250, 0.3) 0%, rgba(250, 250, 250, 0) 30%);
+  filter: blur(5px);
+  z-index: 1;
+  translate: rotate(40deg);
+}
+
+.batman .head .hair span {
+  border-radius: 0 0 60% 40%;
+  z-index: 2;
+  box-shadow: 0px 4px 4px -5px rgba(255, 255, 255, 0.5);
+  translate: rotate(-7deg);
+}
+
+.batman .head .hair span:nth-of-type(1) {
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 18px;
+  border-bottom: 1px solid #713b2e;
+}
+
+.batman .head .hair span:nth-of-type(2) {
+  bottom: 20px;
+  right: 10px;
+  width: 50px;
+  height: 10px;
+  border-bottom: 1px solid #783e31;
+}
+
+.batman .head .hair span:nth-of-type(3) {
+  bottom: 12px;
+  right: 8px;
+  width: 50px;
+  height: 18px;
+  border-top: 1px solid #7f4234;
+  border-radius: 40% 60% 0 0;
+  box-shadow: 0px -4px 4px -5px rgba(255, 255, 255, 0.5);
+}
+
+.batman .head .hair:before, .batman .head .hair:after {
+  bottom: -13px;
+  width: 12px;
+  background: #834435;
+}
+
+.batman .head .hair:before {
+  left: 0px;
+  height: 23px;
+  border-radius: 10% 70% 40% 60%/10% 20% 80% 70%;
+  box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.5), inset -12px -5px 8px -10px rgba(0, 0, 0, 0.8);
+}
+
+.batman .head .hair:after {
+  height: 33px;
+  right: -4px;
+  border-radius: 60% 40% 60% 40%/50% 40% 60% 50%;
+  box-shadow: -2px 0 2px -2px rgba(0, 0, 0, 0.5), inset 12px -10px 15px -10px rgba(0, 0, 0, 0.8);
+}
+
+.batman .head .eye {
+  top: 34px;
+  height: 7px;
+  width: 7px;
+  background: #333333;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.batman .head .eye.left {
+  left: 18px;
+}
+
+.batman .head .eye.right {
+  right: 18px;
+}
+*/
+
+.mouth {
+  top: 33px;
+  left: 30%;
+  z-index: 3;
+  width: 60px;
+  height: 60px;
+}
+
+.mouth-shadow {
+  top: 3px;
+  right: 5px;
+  background-color: transparent;
+  transform: rotate(8deg);
+}
+
+.inner-mouth {
+  top: 5px;
+  left: 1px;
+  background-color: transparent;
+  transform: rotate(8deg);
+}
+
+.batman .head .mouth:before {
+  top: 16px;
+  left: 14px;
+  height: 0;
+  width: 0;
+  border: 1px solid transparent;
+  border-right-color: #333333;
+  border-right-width: 5px;
+  z-index: 10;
+}
