@@ -14,7 +14,8 @@ body .container {
   margin: 0 auto;
 }
 
-body .container :before, body .container :after {
+body .container :before, 
+body .container :after {
   position: absolute;
   content: "";
   width: 0;
@@ -231,7 +232,8 @@ body .container :before, body .container :after {
   z-index: 12;
 }
 
-.emmet .body:before, .emmet .body:after {
+.emmet .body:before, 
+.emmet .body:after {
   top: 22px;
   height: 40px;
   width: 18px;
