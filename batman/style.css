@@ -4,8 +4,8 @@
 }
 
 body {
-  background: radial-gradient(ellipse at center bottom, #4c7180 0%, #4c7180 8%, #476b79 40%, #354f59 60%, transparent 80%),
-              radial-gradient(ellipse at center top, #0c1b21 0%, #0c1b21 8%, #0c1b21 25%, #0c1b21 62.5%, #0c1b21 100%);
+  background: #2e434b;
+  background-image: radial-gradient(circle, #4c7180 0%, #0c1b21 100%);
 }
 
 body .container {
@@ -52,101 +52,6 @@ body .container :after {
   border-radius: 25%;
 }
 
-/*
-.batman .head .hair {
-  top: -13px;
-  left: calc(50% - (79px / 2));
-  height: 40px;
-  width: 74px;
-  background: #834435;
-  border-radius: 50% 50% 60% 40%/80% 50% 50% 20%;
-  z-index: 2;
-  box-shadow: 0 7px 2px -7px rgba(0, 0, 0, 0.5), inset 0 -12px 8px -10px rgba(0, 0, 0, 0.6);
-}
-
-.batman .head .hair .highlight {
-  left: 0;
-  top: 0;
-  width: 70%;
-  height: 150%;
-  border-radius: 50%;
-  background-image: radial-gradient(40% 40%, ellipse cover, rgba(250, 250, 250, 0.3) 0%, rgba(250, 250, 250, 0) 30%);
-  filter: blur(5px);
-  z-index: 1;
-  translate: rotate(40deg);
-}
-
-.batman .head .hair span {
-  border-radius: 0 0 60% 40%;
-  z-index: 2;
-  box-shadow: 0px 4px 4px -5px rgba(255, 255, 255, 0.5);
-  translate: rotate(-7deg);
-}
-
-.batman .head .hair span:nth-of-type(1) {
-  bottom: 10px;
-  right: 10px;
-  width: 50px;
-  height: 18px;
-  border-bottom: 1px solid #713b2e;
-}
-
-.batman .head .hair span:nth-of-type(2) {
-  bottom: 20px;
-  right: 10px;
-  width: 50px;
-  height: 10px;
-  border-bottom: 1px solid #783e31;
-}
-
-.batman .head .hair span:nth-of-type(3) {
-  bottom: 12px;
-  right: 8px;
-  width: 50px;
-  height: 18px;
-  border-top: 1px solid #7f4234;
-  border-radius: 40% 60% 0 0;
-  box-shadow: 0px -4px 4px -5px rgba(255, 255, 255, 0.5);
-}
-
-.batman .head .hair:before, .batman .head .hair:after {
-  bottom: -13px;
-  width: 12px;
-  background: #834435;
-}
-
-.batman .head .hair:before {
-  left: 0px;
-  height: 23px;
-  border-radius: 10% 70% 40% 60%/10% 20% 80% 70%;
-  box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.5), inset -12px -5px 8px -10px rgba(0, 0, 0, 0.8);
-}
-
-.batman .head .hair:after {
-  height: 33px;
-  right: -4px;
-  border-radius: 60% 40% 60% 40%/50% 40% 60% 50%;
-  box-shadow: -2px 0 2px -2px rgba(0, 0, 0, 0.5), inset 12px -10px 15px -10px rgba(0, 0, 0, 0.8);
-}
-
-.batman .head .eye {
-  top: 34px;
-  height: 7px;
-  width: 7px;
-  background: #333333;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.batman .head .eye.left {
-  left: 18px;
-}
-
-.batman .head .eye.right {
-  right: 18px;
-}
-*/
-
 .mouth {
   top: 33px;
   left: 30%;
@@ -178,4 +83,427 @@ body .container :after {
   border-right-color: #333333;
   border-right-width: 5px;
   z-index: 10;
+}
+
+/* from emmet */
+.batman .body {
+  top: 0;
+  left: calc(50% - ((75px + 24px) / 2));
+  height: 0;
+  width: 75px;
+  border-style: solid;
+  border-width: 0 12.5px 85px 12.5px;
+  border-color: transparent transparent #F16017 transparent;
+  box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+
+.batman .body .highlight {
+  bottom: -85px;
+  width: 60%;
+  height: 85px;
+  border-radius: 20px;
+  background-image: radial-gradient(30% 30%, ellipse cover, rgba(250, 250, 250, 0.5) 0%, rgba(250, 250, 250, 0) 60%);
+  filter: blur(5px);
+  z-index: 12;
+}
+
+.batman .body:before, 
+.batman .body:after {
+  top: 22px;
+  height: 40px;
+  width: 18px;
+  border-top: 3px solid #000000;
+  z-index: 4;
+}
+
+.batman .body:before {
+  left: 18px;
+}
+
+.batman .body:after {
+  right: 18px;
+}
+
+.batman .body:before {
+  border-right: 2px solid #000000;
+  transform: skewY(65deg);
+}
+
+.batman .body:after {
+  border-left: 2px solid #000000;
+  transform: skewY(-65deg);
+}
+
+.batman .body .shirt {
+  top: 2px;
+  left: calc(50% - (38px / 2));
+  height: 30px;
+  width: 38px;
+  z-index: 3;
+  background: #FFFFFF;
+  clip-path: polygon(50% 95%, 15% 0, 85% 0);
+}
+
+.batman .body .shirt:before, .batman .body .shirt:after {
+  top: 0;
+  height: 40px;
+  width: 20px;
+  background: #2872BA;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+
+.batman .body .shirt:before {
+  left: 0;
+}
+
+.batman .body .shirt:after {
+  right: 0;
+}
+
+.batman .body .shirt:before {
+  border-radius: 1% 90% 1% 20%/1% 70% 1% 20%;
+}
+
+.batman .body .shirt:after {
+  border-radius: 90% 1% 20% 1%/70% 1% 20% 1%;
+}
+
+.batman .body .shirt .collar {
+  top: -3px;
+  height: 20px;
+  width: 20px;
+  z-index: 2;
+}
+
+.batman .body .shirt .collar.left {
+  left: -10px;
+  transform: rotate(45deg);
+}
+
+.batman .body .shirt .collar.right {
+  right: -10px;
+  transform: rotate(-45deg);
+}
+
+.batman .body .shirt .collar.left {
+  border-right: 1px solid #000000;
+}
+
+.batman .body .shirt .collar.right {
+  border-left: 1px solid #000000;
+}
+
+.batman .body span {
+  top: 2px;
+  height: 81px;
+  width: 10px;
+  background: #D3CDCC;
+  z-index: 2;
+}
+
+.batman .body span:nth-of-type(1) {
+  left: 4px;
+}
+
+.batman .body span:nth-of-type(2) {
+  right: 4px;
+}
+
+.batman .body span:nth-of-type(3) {
+  top: -7px;
+  left: 32px;
+  height: 78px;
+}
+
+.batman .body span:nth-of-type(4) {
+  top: 34px;
+  left: 32px;
+  height: 89px;
+}
+
+.batman .body span:nth-of-type(3), .batman .body span:nth-of-type(4) {
+  transform: rotate(90deg);
+}
+
+.batman .body .pen {
+  top: 48px;
+  left: 6px;
+  height: 10px;
+  width: 6px;
+  background: #006FAD;
+  border-radius: 5px 5px 0 0;
+  z-index: 10;
+  border: 2px solid #000000;
+}
+
+.batman .body .pen:before {
+  top: -6px;
+  left: calc(50% - 2px);
+  height: 4px;
+  width: 4px;
+  background: #006FAD;
+}
+
+.batman .body .pen:after {
+  top: 4px;
+  left: calc(50% - 1px);
+  height: 15px;
+  width: 2px;
+  background: #000000;
+}
+
+.batman .body .pocket {
+  top: 60px;
+  width: 25px;
+  height: 6px;
+  border: 2px solid #000000;
+  z-index: 5;
+  border-radius: 2px 2px 0 0;
+}
+
+.batman .body .pocket.left {
+  left: -5px;
+}
+
+.batman .body .pocket.right {
+  right: -5px;
+}
+
+.batman .shoulder {
+  z-index: 2;
+  top: 5px;
+  width: 24px;
+  height: 54px;
+  background: #2872BA;
+  overflow: hidden;
+}
+
+.batman .shoulder.left {
+  left: -22px;
+  transform: rotate(25deg);
+}
+
+.batman .shoulder.right {
+  right: -22px;
+  transform: rotate(-25deg);
+}
+
+.batman .shoulder.left {
+  border-radius: 50px 50px 0 20px;
+  box-shadow: inset -15px 0 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.batman .shoulder.left:before {
+  top: 0;
+  width: 60%;
+  height: 85px;
+  border-radius: 20px;
+  background-image: radial-gradient(30% 30%, ellipse cover, rgba(250, 250, 250, 0.3) 0%, rgba(250, 250, 250, 0) 60%);
+  filter: blur(5px);
+  z-index: 12;
+}
+
+.batman .shoulder.right {
+  border-radius: 50px 50px 20px 0;
+  box-shadow: inset 18px 0 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+.batman .arm {
+  bottom: -1px;
+  width: 25px;
+  height: 35px;
+  background: #2872BA;
+  z-index: 1;
+  border-radius: 15% 15% 50% 50%/15% 15% 20% 20%;
+}
+
+.batman .arm.left {
+  left: -35px;
+  transform: rotate(8deg);
+}
+
+.batman .arm.right {
+  right: -35px;
+  transform: rotate(-8deg);
+}
+
+.batman .arm.left {
+  box-shadow: inset -15px 0 10px -5px rgba(0, 0, 0, 0.3), inset 0 -10px 0 -5px #1a4b7b;
+  overflow: hidden;
+}
+
+.batman .arm.left:before {
+  top: 0;
+  width: 60%;
+  height: 33px;
+  border-radius: 20px;
+  background-image: radial-gradient(30% 30%, ellipse cover, rgba(250, 250, 250, 0.2) 0%, rgba(250, 250, 250, 0) 60%);
+  filter: blur(5px);
+  z-index: 12;
+}
+
+.batman .arm.right {
+  box-shadow: inset 18px 0 15px -5px rgba(0, 0, 0, 0.5), inset 0 -10px 0 -5px #1a4b7b;
+}
+
+.batman .hand {
+  bottom: -22px;
+  height: 12px;
+  width: 12px;
+  border: 6px solid #FCCC29;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  box-shadow: 4px 0px 0 -1px #d6a603, inset 4px 3px 0 -1px #d6a603;
+  z-index: 3;
+}
+
+.batman .hand.left {
+  left: -38px;
+  transform: rotate(5deg);
+}
+
+.batman .hand.right {
+  right: -38px;
+  transform: rotate(-5deg);
+}
+
+.batman .hand.left .wrist {
+  left: calc(50% - (15px / 2));
+}
+
+.batman .hand.right .wrist {
+  right: calc(50% - (15px / 2));
+}
+
+.batman .hand.left .wrist:before {
+  left: calc(50% - (24px / 2));
+}
+
+.batman .hand.right .wrist:before {
+  right: calc(50% - (24px / 2));
+}
+
+.batman .hand .wrist {
+  top: -10px;
+  height: 10px;
+  width: 15px;
+  background: #FCCC29;
+  border-radius: 50% 50% 0 0/30% 30% 0 0;
+  box-shadow: 3px 0 0 -2px #bc9203;
+}
+
+.batman .hand .wrist:before {
+  top: -5px;
+  width: 24px;
+  height: 10px;
+  border-top: 5px solid #163f66;
+  border-radius: 50%;
+}
+
+.batman .hand:after {
+  bottom: -4px;
+  left: -3px;
+  height: 6px;
+  width: 6px;
+  background: #FCCC29;
+  border-radius: 50%;
+  box-shadow: 12px 0 0 0 #FCCC29;
+}
+
+.batman .belt {
+  bottom: -13px;
+  left: calc(50% - (91px / 2));
+  width: 83px;
+  height: 9px;
+  background: #000000;
+  border: 2px solid #F16017;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  z-index: 4;
+}
+
+.batman .belt:before, .emmet .belt:after {
+  top: 0;
+  height: 9px;
+  width: 4px;
+  background: #F16017;
+}
+
+.batman .belt:before {
+  left: 5px;
+}
+
+.batman .belt:after {
+  right: 5px;
+}
+
+.batman .belt:before {
+  box-shadow: 15px 0 0 0 #F16017;
+}
+
+.batman .belt:after {
+  box-shadow: -15px 0 0 0 #F16017;
+}
+
+.batman .belt .buckle {
+  height: 9px;
+  width: 20px;
+  left: calc(50% - 10px);
+  background: #D3CDCC;
+}
+
+.batman .belt .buckle:before {
+  top: calc(50% - ((5px / 2) + 2px));
+  left: calc(50% - (5px / 2));
+  height: 5px;
+  width: 5px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+}
+
+.batman .pelvis {
+  bottom: -49px;
+  left: calc(50% - (93px / 2));
+  width: 93px;
+  height: 36px;
+  background: #282929;
+  box-shadow: inset 0 18px 8px -8px #131313, inset 0 -20px 15px -10px #131313;
+  border-bottom: 1px solid #1f2121;
+  border-top: 1px solid #1f2121;
+}
+
+.batman .pelvis:before {
+  left: calc(50% - (6px / 2) - 1px);
+  width: 6px;
+  height: calc(100% - 2px);
+  border: 1px solid #19191a;
+  border-top: 0;
+  box-shadow: inset 0 -5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.batman .pelvis .leg {
+  bottom: -53px;
+  width: 42.5px;
+  height: 52px;
+  background: #282929;
+  box-shadow: inset 5px 5px 20px 2px rgba(0, 0, 0, 0.5);
+  border: 1px solid #121213;
+  border-bottom: none;
+}
+
+.batman .pelvis .leg.right {
+  right: 0;
+}
+
+.batman .pelvis .leg .foot {
+  bottom: 0;
+  right: -1px;
+  height: 15px;
+  width: 100%;
+  box-shadow: 0 -4px 10px -4px #444748f5;
+  border: 1px solid #19191a;
 }
