@@ -97,6 +97,19 @@ body .container :after {
   z-index: 4;
 }
 
+.ellipse {
+  top: 6px;
+  left: 14px;
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F2D321;
+}
+
+.batman-sign {
+  top: 4px;
+}
+
 /*
 .batman .body:before, 
 .batman .body:after {
