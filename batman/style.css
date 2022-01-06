@@ -311,7 +311,7 @@ body .container :after {
   transform: rotateY(180deg) rotate(25deg);
   left: 73px;
 }
-
+/* 
 .batman .arm {
   bottom: 0px;
   width: 24px;
@@ -466,7 +466,7 @@ body .container :after {
   border-radius: 50%;
   transform: rotate(-45deg);
 }
-
+ */
 /* done, no changes needed */
 .batman .pelvis {
   bottom: -49px;
