@@ -3,14 +3,9 @@
   margin: 0;
 }
 
-/* body {
-  background: #2e434b;
-  background-image: radial-gradient(circle, #4c7180 0%, #0c1b21 100%);
-} */
-
 body {
-  background: radial-gradient(ellipse at center bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-              radial-gradient(ellipse at center top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  background: radial-gradient(ellipse at center bottom, #4c7180 0%, #4c7180 8%, #476b79 40%, #354f59 60%, transparent 80%),
+              radial-gradient(ellipse at center top, #0c1b21 0%, #0c1b21 8%, #0c1b21 25%, #0c1b21 62.5%, #0c1b21 100%);
 }
 
 body .container {
