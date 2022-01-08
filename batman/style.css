@@ -371,11 +371,11 @@ body .container :after {
 .batman .hand .wrist {
   top: -10px;
   height: 10px;
-  width: 10px;
+  width: 9px;
   background: #242424;
   border-radius: 2px 2px 0 0;
-  box-shadow: 5px 0 0 -4px #1c1d1d;
-  left: calc(50% - (10px / 2));
+  box-shadow: 4px -2px 2px -2px #1c1d1d;
+  left: calc(50% - 5px);
 }
 
 /* pseudo-element */
