@@ -345,10 +345,9 @@ body .container :after {
   left: 86px;
 }
 
-/*  */
 .batman .hand {
   left: -38px;
-  bottom: -21px;
+  bottom: -22px;
   height: 12px;
   width: 12px;
   border: 6px solid #242424;
@@ -395,8 +394,6 @@ body .container :after {
   transform: rotateY(180deg) rotate(10deg);
   left: 91px;
 }
-
-
 
 /* 
 .batman .belt {
