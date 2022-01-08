@@ -281,11 +281,11 @@ body .container :after {
   width: 24px;
   height: 54px;
   background: #1c1d1d;
-  overflow: hidden;
   left: -22px;
   transform: rotate(25deg);
-  border-radius: 50px 40px 0 0px;
-  box-shadow: inset -15px 0 3px -5px #0000004d;
+  border-radius: 50px 40px 0 0;
+  box-shadow: inset -15px 0 1px -5px #0000004d;
+  overflow: hidden;
 }
 
 .glare {
@@ -299,7 +299,6 @@ body .container :after {
 }
 
 .glare-shadow {
-  position: absolute;
   width: 16px;
   height: 100%;
   left: -5px;
@@ -311,45 +310,42 @@ body .container :after {
   transform: rotateY(180deg) rotate(25deg);
   left: 73px;
 }
-/* 
+
+/* done */
 .batman .arm {
-  bottom: 0px;
+  bottom: 1px;
   width: 24px;
   height: 35px;
   background: #1c1d1d;
-  z-index: 1;
-  border-radius: 15% 15% 50% 50%/15% 15% 20% 20%;
-}
-
-.batman .arm.left {
+  border-radius: 15% 15% 50% 50%/15% 15% 10% 10%;
+  overflow: hidden;
   left: -35px;
   transform: rotate(8deg);
+  box-shadow: inset -10px 0 1px -5px #0000004d;
+}
+
+.glare-arm {
+  width: 5px;
+  top: 2px;
+  left: 3px;
+  height: 100%;
+  background: #ffffff2c;
+  border-radius: 5px;
+}
+
+.glare-shadow-arm {
+  width: 10px;
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #1c1d1d00 0%, #1c1d1d 60%);
 }
 
 .batman .arm.right {
-  right: -35px;
-  transform: rotate(-8deg);
+  transform: rotateY(180deg) rotate(10deg);
+  left: 86px;
 }
 
-.batman .arm.left {
-  box-shadow: inset -15px 0 10px -5px rgba(0, 0, 0, 0.3), inset 0 -10px 0 -5px #1a4b7b;
-  overflow: hidden;
-}
-
-.batman .arm.left:before {
-  top: 0;
-  width: 60%;
-  height: 33px;
-  border-radius: 20px;
-  background-image: radial-gradient(30% 30%, ellipse cover, rgba(250, 250, 250, 0.2) 0%, rgba(250, 250, 250, 0) 60%);
-  filter: blur(5px);
-  z-index: 12;
-}
-
-.batman .arm.right {
-  box-shadow: inset 18px 0 15px -5px rgba(0, 0, 0, 0.5), inset 0 -10px 0 -5px #1a4b7b;
-}
-
+/*  */
 .batman .hand {
   bottom: -22px;
   height: 12px;
@@ -466,7 +462,7 @@ body .container :after {
   border-radius: 50%;
   transform: rotate(-45deg);
 }
- */
+
 /* done, no changes needed */
 .batman .pelvis {
   bottom: -49px;
