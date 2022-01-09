@@ -85,6 +85,11 @@ body .container :after {
   z-index: 10;
 }
 
+.chin {
+  bottom: -14px;
+  left: 25px;
+}
+
 /* from emmet */
 .batman .body {
   top: 0;
