@@ -90,7 +90,6 @@ body .container :after {
   left: 25px;
 }
 
-/* from emmet */
 .batman .body {
   top: 0;
   left: calc(50% - ((75px + 24px) / 2));
@@ -280,7 +279,6 @@ body .container :after {
 }
  */
 
-/* no changes needed: finished */
 .batman .shoulder  {
   top: 4px;
   width: 24px;
@@ -316,7 +314,6 @@ body .container :after {
   left: 73px;
 }
 
-/* done */
 .batman .arm {
   bottom: 1px;
   width: 24px;
@@ -454,7 +451,6 @@ body .container :after {
   transform: rotate(-45deg);
 } */
 
-/* done, no changes needed */
 .batman .pelvis {
   bottom: -49px;
   left: calc(50% - (93px / 2));
