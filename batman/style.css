@@ -99,7 +99,7 @@ body .container :after {
 
 .ellipse {
   top: 6px;
-  left: 14px;
+  left: 11px;
   width: 50px;
   height: 30px;
   border-radius: 50%;
@@ -393,8 +393,6 @@ body .container :after {
   left: 91px;
 }
 
-
-/* edit needed */
 .batman .belt {
   bottom: -11px;
   left: 10%;
@@ -483,4 +481,14 @@ body .container :after {
   width: 100%;
   box-shadow: 0 -4px 10px -4px #444748f5;
   border: 1px solid #19191a;
+}
+
+.batman .shadow {
+  bottom: -101px;
+  width: 150px;
+  left: 20px;
+  height: 100px;
+  z-index: -1;
+  background: radial-gradient(circle at 50% 80%, #0000001c, #00000010 35%, #00000000 45%);
+  transform: skewX(-50deg);
 }
