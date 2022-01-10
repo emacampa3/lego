@@ -430,11 +430,17 @@ body .container :after {
   background: #F4B702;
 }
 
+.batman .belt .bag:after {
+  width: 1px;
+  top: 3px;
+  left: 14px;
+  border-bottom: 10px solid hsl(45, 94%, 43%);
+}
+
 .batman .belt .bag.right {
   transform: rotateY(180deg);
   left: 63px;
 }
-
 
 .batman .pelvis {
   bottom: -49px;
