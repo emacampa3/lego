@@ -445,8 +445,8 @@ body .container :after {
   left: calc(50% - (93px / 2));
   width: 93px;
   height: 36px;
-  background: #1c1d1d;
-  box-shadow: inset 1px 0 0 #303030, inset 0 18px 1px -8px #181818, inset 0 -20px 5px -10px #181818, inset 3px 12px 0 #303030;
+  background: #191a1a;
+  box-shadow: inset 1px 0 0 #414344f5, inset 0 15px 0 -8px #181818, inset 0 -20px 0 -15px #181818, inset 3px 12px 0 #303030;
   border-bottom: 1px solid #1f2121;
   border-top: 1px solid #090909;
 }
@@ -457,15 +457,15 @@ body .container :after {
   height: calc(100% - 2px);
   border: 1px solid #222222;
   border-top: 0;
-  box-shadow: inset 0 -5px 5px 0 #181818;
+  box-shadow: inset 1px 0 0 #303030;
 }
 
 .batman .pelvis .leg {
   bottom: -53px;
   width: 42.5px;
   height: 52px;
-  background: #1c1d1d;
-  box-shadow: inset 1px 0 0 #303030, inset 0 5px 1px 0 #181818, inset 2px 0 0 #303030;
+  background: #191a1a;
+  box-shadow: inset 2px 0 0 #414344f5;
 }
 
 .batman .pelvis .leg.right {
@@ -477,16 +477,16 @@ body .container :after {
   right: -1px;
   height: 15px;
   width: 100%;
-  box-shadow: 0 -4px 3px -4px #414344f5;
+  box-shadow: 0 -5px 0 -4px #414344f5;
 }
 
 .batman .pelvis .leg .foot:before {
   top: 0;
-  left: 1px;
-  width: 90%;
+  left: 4px;
+  width: 80%;
   height: 2px;
   border-top: none;
-  background: #181818;
+  background: #0a0a0a;
 }
 
 .batman .shadow {
