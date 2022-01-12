@@ -134,6 +134,18 @@ body .container :after {
   left: 92px;
 }
 
+.batman .body .abs-1 {
+  top: 52px;
+  left: 13px;
+  transform: rotate(2deg);
+}
+
+.batman .body .abs-1.right {
+  transform: rotate(-2deg) rotateY(180deg);
+  top: 53px;
+  right: 12px;
+}
+
 .batman .body .upper-line {
   top: -1px;
   left: 2px;
@@ -148,7 +160,7 @@ body .container :after {
 }
 
 .batman .body .shadow.right {
-  transform: rotateY(185deg);
+  transform: rotateY(180deg);
   top: 60px;
   left: -45px;
 }
