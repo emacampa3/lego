@@ -87,6 +87,7 @@ body .container :after {
 }
 
 .batman .body {
+  position: relative;
   top: 0;
   left: calc(50% - ((73px + 24px) / 2));
   height: 0;
@@ -95,6 +96,17 @@ body .container :after {
   border-width: 0 11.5px 85px 11.5px;
   border-color: transparent transparent #1c1d1d transparent;
   z-index: 4;
+}
+
+.batman .body:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 80px;
+  background: transparent;
+  box-shadow: -6px 1px 0 0 #303030;
+  transform: rotate(7deg);
 }
 
 .ellipse {
@@ -363,7 +375,7 @@ body .container :after {
   width: 93px;
   height: 36px;
   background: #191a1a;
-  box-shadow: inset 1px 0 0 #414344f5, inset 0 15px 0 -8px #181818, inset 0 -20px 0 -15px #181818, inset 3px 12px 0 #303030;
+  box-shadow: inset 1px 0 0 #4F4F4F, inset 0 15px 0 -8px #181818, inset 0 -20px 0 -15px #181818, inset 3px 12px 0 #313131;
   border-bottom: 1px solid #1f2121;
   border-top: 1px solid #090909;
 }
@@ -374,7 +386,7 @@ body .container :after {
   height: calc(100% - 2px);
   border: 1px solid #222222;
   border-top: 0;
-  box-shadow: inset 1px 0 0 #303030;
+  box-shadow: inset 1px 0 0 #4F4F4F;
 }
 
 .batman .pelvis .leg {
@@ -382,7 +394,7 @@ body .container :after {
   width: 42.5px;
   height: 52px;
   background: #191a1a;
-  box-shadow: inset 2px 0 0 #414344f5;
+  box-shadow: inset 2px 0 0 #4F4F4F;
 }
 
 .batman .pelvis .leg.right {
