@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #2e434b;
+  background: #0a171c;
   background-image: radial-gradient(circle, #4c7180 0%, #28424d 30%, #1d3741 40%, #192f38 50%,#0a171c 100%);
 }
 
@@ -108,6 +108,20 @@ body .container :after {
 
 .batman-sign {
   top: 4px;
+}
+
+.batman .body .upper-abs {
+  top: 31px;
+  left: -34px;
+  width: 80px;
+  height: 50px;
+  transform: rotate(5deg);
+}
+
+.batman .body .upper-abs.right {
+  transform: rotateY(180deg) rotate(5deg);
+  top: 31px;
+  left: 28px;
 }
 
 .batman .body .upper-line {
