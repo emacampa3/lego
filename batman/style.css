@@ -124,6 +124,16 @@ body .container :after {
   left: 28px;
 }
 
+.batman .body .side-ribs {
+  top: 36px;
+  left: -18px;
+}
+
+.batman .body .side-ribs.right {
+  transform: rotateY(180deg);
+  left: 92px;
+}
+
 .batman .body .upper-line {
   top: -1px;
   left: 2px;
