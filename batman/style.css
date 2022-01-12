@@ -146,6 +146,18 @@ body .container :after {
   right: 12px;
 }
 
+.batman .body .abs-2 {
+  top: 63px;
+  left: 13px;
+  transform: rotate(2deg);
+}
+
+.batman .body .abs-2.right {
+  transform: rotate(-2deg) rotateY(180deg);
+  top: 64px;
+  right: 12px;
+}
+
 .batman .body .upper-line {
   top: -1px;
   left: 2px;
