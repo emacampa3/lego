@@ -39,7 +39,7 @@ body .container :after {
 }
 
 .batman .head {
-  top: -73px;
+  top: -71px;
   left: calc(50% - (63px / 2));
   width: 63px;
   height: 67px;
@@ -48,8 +48,38 @@ body .container :after {
   border-radius: 25%;
 }
 
+.batman .head .eye {
+  top: 23px;
+  left: 9px;
+  height: 16px;
+  width: 16px;
+  background-color: #ffffff;
+  box-shadow: inset 3px 1px 5px 0px #373737;
+  border-radius: 50%;
+}
+
+.batman .head .eye:before {
+  top: 9px;
+  left: -10px;
+  background-color: #303030;
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.batman .head .eye.right {
+  transform: rotateY(180deg);
+  left: 37px;
+}
+
+.mask {
+  top: 70px;
+  left: 61px;
+}
+
 .mouth {
-  top: 33px;
+  top: 34px;
   left: 30%;
   z-index: 3;
   width: 60px;
@@ -82,7 +112,7 @@ body .container :after {
 }
 
 .chin {
-  bottom: -14px;
+  bottom: -15px;
   left: 25px;
 }
 
@@ -421,7 +451,7 @@ body .container :after {
   width: 1px;
   height: 87px;
   background: transparent;
-  box-shadow: -51px 1px 0 0 #6a6a6a;
+  box-shadow: -51px 1px 0 0 #4b4b4b;
 }
 
 .batman .pelvis .leg.right:after {
