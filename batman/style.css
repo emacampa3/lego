@@ -44,7 +44,7 @@ body .container :after {
   width: 63px;
   height: 67px;
   background-image: radial-gradient(circle, #f5c192 0%, #744f2d 100%);
-  box-shadow: inset 15px -3px 4px 1px #55392b, inset -18px 0px 2px 1px #6a4736;
+  box-shadow: inset 15px -3px 4px 1px #6a4736, inset -18px 0px 2px 1px #6a4736;
   border-radius: 25%;
 }
 
@@ -76,6 +76,33 @@ body .container :after {
 .mask {
   top: 70px;
   left: 61px;
+}
+
+.batman .head .mask-correction {
+  top: 34px;
+  left: 4px;
+  width: 1px;
+  height: 32px;
+  background-color: #1c1d1d;
+  transform: rotate(13deg);
+}
+
+.batman .head .mask-correction:before {
+  top: -12px;
+  left: 51px;
+  width: 1px;
+  height: 32px;
+  background-color: #1c1d1d;
+  transform: rotate(-28deg);
+}
+
+.batman .head .mask-correction:after {
+  top: 9px;
+  left: 50px;
+  width: 1px;
+  height: 15px;
+  background-color: #1c1d1d;
+  transform: rotate(-75deg);
 }
 
 .mouth {
