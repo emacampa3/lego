@@ -87,7 +87,7 @@ body .container :after {
   transform: rotate(13deg);
 }
 
-.batman .head .mask-correction:before {
+/* .batman .head .mask-correction:before {
   top: -16px;
   left: 51px;
   width: 1px;
@@ -103,11 +103,16 @@ body .container :after {
   height: 15px;
   background-color: #1c1d1d;
   transform: rotate(-75deg);
-}
+} */
 
 .batman .head .shadow-1 {
   top: 70px;
   left: 62px;
+}
+
+.batman .head .light-1 {
+  top: 70px;
+  left: -4px;
 }
 
 .mouth {
