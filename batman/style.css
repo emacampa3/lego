@@ -145,6 +145,15 @@ body .container :after {
   left: 25px;
 }
 
+.neck {
+  position: absolute;
+  width: 42px;
+  height: 5px;
+  background-color: #1c1d1d;
+  top: -5px;
+  left: 17px;
+}
+
 .batman .body {
   position: relative;
   top: 0;
