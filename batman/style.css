@@ -122,6 +122,11 @@ body .container :after {
   left: -8px;
 }
 
+.batman .head .light-6 {
+  top: 68px;
+  left: 65px;
+}
+
 .mouth {
   top: 34px;
   left: 30%;
