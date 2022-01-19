@@ -107,6 +107,21 @@ body .container :after {
   left: -8px;
 }
 
+.batman .head .light-3 {
+  top: 68px;
+  left: 66px;
+}
+
+.batman .head .light-4 {
+  top: 68px;
+  left: -8px;
+}
+
+.batman .head .light-5 {
+  top: 68px;
+  left: -8px;
+}
+
 .mouth {
   top: 34px;
   left: 30%;
