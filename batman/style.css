@@ -92,6 +92,14 @@ body .container :after {
   left: 62px;
 }
 
+.batman .head .mask-shadow {
+  top: 59px;
+  left: 15px;
+  width: 32px;
+  height: 1px;
+  background: linear-gradient(90deg, #333333 10%, #242626 20%,#242626 80%, #333333 90%);
+}
+
 .batman .head .shadow-2 {
   top: 67px;
   left: 66px;
@@ -125,6 +133,16 @@ body .container :after {
 .batman .head .light-6 {
   top: 68px;
   left: 65px;
+}
+
+.batman .head .light-7 {
+  top: 45px;
+  left: 27px;
+}
+
+.batman .head .light-8 {
+  top: 45px;
+  left: 29px;
 }
 
 .mouth {
