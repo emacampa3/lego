@@ -73,7 +73,7 @@ body .container :after {
   left: 37px;
 }
 
-.mask {
+.mask-underlay {
   top: 70px;
   left: 61px;
 }
@@ -87,12 +87,12 @@ body .container :after {
   transform: rotate(13deg);
 }
 
-.batman .head .shadow-1 {
+.batman .head .left-shadow {
   top: 70px;
   left: 62px;
 }
 
-.batman .head .mask-shadow {
+.batman .head .lower-mask-shadow {
   top: 59px;
   left: 15px;
   width: 32px;
@@ -100,47 +100,47 @@ body .container :after {
   background: linear-gradient(90deg, #333333 10%, #242626 20%,#242626 80%, #333333 90%);
 }
 
-.batman .head .shadow-2 {
+.batman .head .left-ear-shadow {
   top: 67px;
   left: 66px;
 }
 
-.batman .head .light-1 {
+.batman .head .right-light {
   top: 70px;
   left: -4px;
 }
 
-.batman .head .light-2 {
+.batman .head .right-ear-shadow {
   top: 67px;
   left: -8px;
 }
 
-.batman .head .light-3 {
+.batman .head .left-ear-shadow-correction {
   top: 68px;
   left: 66px;
 }
 
-.batman .head .light-4 {
+.batman .head .right-ear-shadow-correction {
   top: 68px;
   left: -8px;
 }
 
-.batman .head .light-5 {
+.batman .head .right-ear-light-correction {
   top: 68px;
   left: -8px;
 }
 
-.batman .head .light-6 {
+.batman .head .left-ear-light-correction {
   top: 68px;
   left: 65px;
 }
 
-.batman .head .light-7 {
+.batman .head .mask-left-cheek-correction {
   top: 45px;
   left: 27px;
 }
 
-.batman .head .light-8 {
+.batman .head .mask-right-cheek-correction {
   top: 45px;
   left: 29px;
 }
