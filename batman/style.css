@@ -83,7 +83,7 @@ body .container :after {
   left: 4px;
   width: 1px;
   height: 26px;
-  background-color: #00000055;
+  background-color: #141414;
   transform: rotate(13deg);
 }
 
@@ -147,11 +147,12 @@ body .container :after {
 
 .neck {
   position: absolute;
-  width: 42px;
-  height: 5px;
-  background-color: #1c1d1d;
   top: -5px;
   left: 17px;
+  width: 42px;
+  height: 5px;
+  background: linear-gradient(90deg, #191a1a 15%, #3f4141 50%, #191a1a 85%);
+  box-shadow: inset 0 2px 0 0 #171818;
 }
 
 .batman .body {
@@ -381,7 +382,6 @@ body .container :after {
   box-shadow: 4px -2px 0 -2px #1c1d1d;
 }
 
-/* pseudo-element */
 .batman .hand .wrist::after {
   content: "";
   position: absolute;
