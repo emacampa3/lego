@@ -120,6 +120,16 @@ body .container :after {
   left: 66px;
 }
 
+.batman .head .left-underear {
+  top: 62px;
+  left: 57px;
+}
+
+.batman .head .right-underear {
+  top: 62px;
+  left: 1px;
+}
+
 .batman .head .right-ear-shadow-correction {
   top: 68px;
   left: -8px;
