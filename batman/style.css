@@ -125,6 +125,14 @@ body .container :after {
   left: 57px;
 }
 
+.forehead {
+  top: 2px;
+  left: 16px;
+  width: 30px;
+  height: 10px;
+  background: linear-gradient(#1c1d1d 0%, #2F2F2F 35%, #1c1d1d 100%);
+}
+
 .batman .head .right-underear {
   top: 62px;
   left: 1px;
