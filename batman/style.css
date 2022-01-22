@@ -125,6 +125,22 @@ body .container :after {
   left: 57px;
 }
 
+.batman .head .left-above-eye {
+  left: 24px;
+  top: 25px;
+}
+
+.batman .head .shadow-above-left-eye {
+  top: 15px;
+  left: 13px;
+  transform: rotate(-10deg);
+}
+
+.batman .head .shadow-above-left-eye-2 {
+  top: 25px;
+  left: 25px;
+}
+
 .forehead {
   top: 2px;
   left: 16px;
@@ -136,6 +152,22 @@ body .container :after {
 .batman .head .right-underear {
   top: 62px;
   left: 1px;
+}
+
+.batman .head .right-above-eye {
+  left: 34px;
+  top: 25px;
+}
+
+.batman .head .shadow-above-right-eye {
+  left: 45px;
+  top: 15px;
+  transform: rotate(10deg);
+}
+
+.batman .head .shadow-above-right-eye-2 {
+  top: 25px;
+  left: 33px;
 }
 
 .batman .head .right-ear-shadow-correction {
