@@ -56,7 +56,7 @@ body .container :after {
   height: 16px;
   width: 16px;
   background-color: #ffffff;
-  box-shadow: inset 3px 1px 5px 0px #373737;
+  box-shadow: inset 4px 1px 4px 0 #373737;
   border-radius: 50%;
 }
 
@@ -68,6 +68,15 @@ body .container :after {
   width: 30px;
   height: 10px;
   border-radius: 50%;
+}
+
+.batman .head .eye-mask {
+  top: 2px;
+  left: 14px;
+}
+
+.batman .head .eye-mask.right {
+  left: -8px;
 }
 
 .batman .head .eye.right {
