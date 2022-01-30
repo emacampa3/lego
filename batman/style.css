@@ -631,11 +631,3 @@ body .container :after {
   background: radial-gradient(circle at 50% 80%, #0000001c, #00000010 35%, #00000000 45%);
   transform: skewX(-50deg);
 }
-
-p {
-  position: absolute;
-  top: 5px;
-  left: 10px;
-  font-family: 'Montserrat', sans-serif;
-  color: #20282e;
-}
