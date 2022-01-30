@@ -254,6 +254,10 @@ body .container :after {
   box-shadow: inset 0 2px 0 0 #171818;
 }
 
+.cape .cape-biggest-part {
+  left: 85px;
+}
+
 .batman .body {
   position: relative;
   top: 0;
