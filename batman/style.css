@@ -282,7 +282,6 @@ body .container :after {
 }
 
 .batman .body:before {
-  z-index: -1;
   content: "";
   position: absolute;
   width: 1px;
@@ -293,14 +292,13 @@ body .container :after {
 }
 
 .batman .body:after {
-  z-index: -1;
   content: "";
   position: absolute;
-  top: 8px;
+  top: 9px;
   width: 1px;
   height: 80px;
   background: transparent;
-  box-shadow: 78px 1px 0 0 #111111;
+  box-shadow: 78px 0 0 0 #111111;
   transform: rotate(-7deg);
 }
 
