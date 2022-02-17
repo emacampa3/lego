@@ -10,6 +10,14 @@ body {
   background-image: radial-gradient(circle, #4c7180 0%, #28424d 30%, #1d3741 40%, #192f38 50%,#0a171c 100%);
 }
 
+p {
+  margin-top: 5px;
+  margin-left: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #406289;
+}
+
 body .container {
   width: 100vw;
   height: 100vh;
